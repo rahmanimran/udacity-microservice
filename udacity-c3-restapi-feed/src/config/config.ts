@@ -1,24 +1,23 @@
 export const config = {
   "dev": {
-    "username": "udagramrahmandev",
-    "password": "udagramrahmandev",
-    "database": "udagramrahmandev",
-    "host": "udagramrahmandev.cxtzrsndua2k.us-east-2.rds.amazonaws.com",
+    "username": process.env.POSTGRESS_USERNAME,
+    "password": process.env.POSTGRESS_PASSWORD,
+    "database": process.env.POSTGRESS_DB,
+    "host": process.env.POSTGRESS_HOST,
     "dialect": "postgres",
-    "aws_region": "us-east-2",
-    
-    
-    "aws_profile": "default",
-    "aws_media_bucket": "udagram-rahman-dev"
+    "aws_reigion": process.env.AWS_REGION,
+    "aws_profile": process.env.AWS_PROFILE,
+    "aws_media_bucket": process.env.AWS_BUCKET   
   },
   "prod": {
-    "username": "",
-    "password": "",
-    "database": "udagram_prod",
-    "host": "",
+    "username": process.env.POSTGRESS_USERNAME,
+    "password": process.env.POSTGRESS_PASSWORD,
+    "database": process.env.POSTGRESS_DB,
+    "host": process.env.POSTGRESS_HOST,
     "dialect": "postgres"
   },
   "jwt": {
-    "secret":"helloworld"
+    "secret": process.env.JWT_SECRET
   }
+
 }
