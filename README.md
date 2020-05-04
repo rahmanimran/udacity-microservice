@@ -1,3 +1,5 @@
+GitHub Repo: https://github.com/rahmanimran/cfit-microservice-imran
+
 This is the Udacity project to split the udagram application into microservice and deploy it in Kubernetes cluster in AWS.
 
 1. After spliting the services I've used docker to build the images
