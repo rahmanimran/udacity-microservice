@@ -1,4 +1,4 @@
-GitHub Repo: https://github.com/rahmanimran/cfit-microservice-imran
+GitHub Repo: https://github.com/rahmanimran/udacity-microservice
 
 This is the Udacity project to split the udagram application into microservice and deploy it in Kubernetes cluster in AWS.
 
